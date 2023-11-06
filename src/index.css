@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #E08E6D;
+    padding: 1rem;
+    width: 100%;
+}
+nav a{
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D25380;
+    color: snow;
+    border-radius: 1rem;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    background-color: #FFCC70;
+}
+main{
+    background-color:#D25380 ;
+    color: snow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 60%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-bottom: 1rem;
+    background-color: #F6C391;
+    width: 60%;
+    font-size: 1.5rem; 
+}
+form input{
+    width: 95%;
+    padding: 0.2rem;
+    font-family: 'Nunito', sans-serif;
+}
+form *{
+    outline: none;
+}
+form select{
+    width: 95%;   
+}
+p{
+    padding: 1rem;
+}
+form:last-child {
+    width: 60%;
+
+}
+form:last-child button {
+    background-color: snow;
+    color: #E08E6D;
+    height: 2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    /*padding: 1rem 1rem 1rem 9rem;*/
+}
+button{
+    cursor: pointer;
+    width: 120px;
+    align-items: center;
+    background-color: snow;
+    color: #E08E6D;
+    height: 2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 0.5rem 1rem 1rem 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+ul{
+    height: 25vh;
+    max-height: 25vh;
+    width: 50vw;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+ul li{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: -5rem;
+    padding: 1rem;
+    background-color: #F6C391;
+}
+
+h1{
+    color: snow; 
+    font-size: 4rem;   
+}
+#listadoPresupuesto li *,
+#listadoPresupuesto li
+{
+    display: block;
+}
